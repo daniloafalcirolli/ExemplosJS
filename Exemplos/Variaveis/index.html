@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Variaveis JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Exemplos <br> JavaScript</h1>
+    </header>
+    <main>
+        <h2>Variaveis JavaScript</h2>
+        <div>
+            <h3>LET</h3>
+            <p>
+                Variavel que só podera ser usada no local do codigo que for criada, caso tenha algo que esteja dentro do local onde ela foi criada podera extender seu valor original e podendo ser alterada a qualquer momento.
+            </p>
+            <div class="line"></div>
+            <div class="img-exemple">
+                <img src="./pic/letExemple1.PNG">
+                <p>
+                    Variavel do tipo LET criada na base do arquivo JavaScript ( Imagem 1 )
+                </p>
+            </div>
+            <p>
+                Na imagem 1 a variavel do tipo LET é criada na base do arquivo, portanto todos os componentes poderão fazer uso da variavel sem erros durante a execução. <br>
+                Quando a função "mostrarNumero()" for executada o resultado que aparecerá no console do navegador é equivalente ao valor da variavel original, pois ele consegue o valor porque consegue acessar a variavel que está fora da função.<br>
+                Para executar o codigo comente tudo que está no codigo e descomente apenas da linha 5 até a 11, e abra o console do seu navigador, o valor que estará lá é 1 e caso queira executar a função novamente digite "mostrarNumero()", que executara a função que está no script.
+            </p>
+            <div class="line"></div>
+            <div class="img-exemple">
+                <img src="./pic/letExemple2.PNG">
+                <p>Variavel do tipo LET criada dentro de uma função, função que por sua vez fica na base do arquivo mas só é possivel acessar a varivel dentro da propria função ( Imagem 2 )</p>
+            </div>
+            <p>
+                Como é notavel na imagem 2, dentro do "console.log(numero1)" à um 3 pontinhos, que indica que a varivel não está definida ( no caso é uma representação visual do VSCode, que fica mais simples de mostrar ) fora da função "numero()", de forma simples essa varivel "numero1" só pode ser acessada dentro da função "numero()", diferentemente de caso fosse colocada na base do script como é feito na imagem 1.<br>
+                E sim, caso coloque uma função dentro da função "numero()" a varivel poderá ser acessada igualmente, sem problema algum.<br>
+                Caso queria testar comente o codigo todo e apenas descomente da linha 15 a 19, e quando abrir o console do seu navegador tera um aviso que a variavel "numero1" não está definida.
+            </p>
+            <div class="line"></div>
+            <div class="img-exemple">
+                <img src="./pic/letExemple3.PNG">
+                <p>Variavel do tipo LET criada dentro de uma função, onde agora pode ser acessada pelo "console.log()" sem problemas ( Imagem 3 )</p>
+            </div>
+            <p>
+                Bom, diferente do exemplo anterior aqui tenmos o "console.log(numero1)" dentro da função "numero()" e não temos mas os 3 pontinhos que ficam dentro do "console.log(numero1)" o que indica que a variavel está sendo acessada sem erro algum, só que diferente de ter o "console.log(numero1)" fora da função agora temos que executa-la para fazer o numero aparecer no console do navegador.<br>
+                Para executar o codigo descomente apenas da linha 23 até a 27, que no console aparecerá o numero "1" e caso queria executar novamente é só digitar "numero()" no console e dar enter, que executara novamente a função.
+            </p>
+        </div>
+        <div class="line2"></div>
+        <div>
+            <h3>VAR</h3>
+            <p>Só serve para encher o saco, tem a mesma função do LET, mas é usado para colocar coisas no base do script no lugar do LET, ai deixa o lei para usar dentro de funções e pode ser alterada a qualquer momento.</p>
+            <div class="line"></div>
+            <div class="img-exemple">
+                <img src="./pic/varExemple1.PNG">
+                <p>Variavel do tipo VAR criada fora da função.</p>
+            </div>
+            <p>
+               Aqui ela pode ser acessada por qualquer coisa dentro do codigo, desde que ela esteja escrita como VAR.<br>
+               Para rodar o exemplo descomente da linha 31 atá a 35 e abra o console do seu navegador que exibira o numero "1" no console, para executar a função "mostrarNumero()" no console.
+            </p>
+        </div>
+        <div class="line2"></div>
+        <div>
+            <h3>CONST</h3>
+            <p>"Constante", não pode ser alterada, normalmente criada no inicio do codigo com valores que não serão alterados de maneira alguma.</p>
+            <div class="line"></div>
+            <div class="img-exemple">
+                <img src="./pic/constExemple1.PNG">
+                <p>Variavel do tipo CONST criada fora da função.</p>
+            </div>
+            <p>
+                Se você tentar alterar ela aparecera no seu console que a variavel não pode ser alterada ou não está definida, para ver o exemplo descomente a linha 39 e 40 do codigo que está no script e abra o console.
+            </p>
+        </div>
+        <div class="line2"></div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

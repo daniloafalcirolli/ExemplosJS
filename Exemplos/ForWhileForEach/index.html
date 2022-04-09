@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>For, While e ForEach</title>
+</head>
+<body>
+    <header>
+        <h1>Exemplos <br> JavaScript</h1>
+    </header>
+    <main>
+        <h2>For, While e ForEach</h2>
+        <h3>While</h3>
+        <p>Sendo uma das formas menos recomendada de rodar um vetor/array ou qualquer coisa que precise passar por uma lista de informações, mas em contra partida uma das melhores formas de fazer um loop com condições especificas.</p>
+        <div class="line"></div>
+        <div class="img-exemple">
+            <img src="./Pic/whileExemple1.PNG">
+            <p>
+                Rodando uma array com while ( Forma menos eficiente, Imagem 1 )
+            </p>
+        </div>
+        <p>Com essa forma de se passar pelas informações de um array/vetor sendo a menos utilizada e a que mais consome linhas de codigo eu lhes peço , não use isso em seu codigo, while tem aplicações melhores que isso.<br>
+            Mas não no JavaScript Hihi, esse exemplo quando for executado no seu console do navegador vai dar o seguinte resultado: "Giulia", "José" e "Zézinho", nessa respectiva ordem.
+            O codigo está a ser descomentado está dentre as linhas 5 e 10, apenas descomente e abra seu console que estará lá o resultado da leitura do array.
+        </p>
+        <div class="line2"></div>
+        <h3>For</h3>
+        <p>Sendo uma das minhas formas favoritas de passar por informações de um vetor ainda é necessario escrever muito para chegar a forma de passar pelas informações</p>
+        <div class="line"></div>
+        <div class="img-exemple">
+            <img src="./Pic/forExemple1.PNG">
+            <p>
+                Rodando um vetor/array com for, não é a forma que eu mais gosto por ter que escrever muito, mas é bem eficiente e fica melhor que o while dentro do codigo ( Imagem 1 )
+            </p>
+        </div>
+        <p>
+            Para min é a forma mais complicada de se passar por um array/vetor com for, então não recomendo muito, mas por já estar estabelecido o conceito por conta do Java não é algo que seja necessario alterar se não quiser aprender algo diferente
+        </p>
+        <div class="line"></div>
+        <div class="img-exemple">
+            <img src="./Pic/forExemple2.1.PNG">
+            <p>
+                Rodando um vetor/array com for, agora mudando sua estrutura para um for in sem mostrar o item do array, apenas o seu respectivo numero ( Imagem 2.1 )
+            </p>
+        </div>
+        <p>
+            For in é um estrutura mais simples que remove a condição, ele apenas passa para a variavel "n" o numero do item do array, então caso abra se console e descomente das linhas 21 até 24 percebera que ira aparecer os numero em 0, 1 e 2, em order pois é os numeros respectivos de cada item do array em ordem.
+        </p>
+        <div class="line"></div>
+        <div class="img-exemple">
+            <img src="./Pic/forExemple2.2.PNG">
+            <p>
+                Rodando um vetor/array com for, agora mudando sua estrutura para um for in e mostrando as informações do array em vez de apenas os numeros ( Imagem 2.2 )
+            </p>
+        </div>
+        <p>
+            Aqui é a mesma coisa do exemplo passado mas agora é mostrando as informções do array em vez de apenas os numeros que cada item tem, para rodar o exemplo no console do seu navegador descomente das linhas 28 até a 31.
+        </p>
+        <div class="line"></div>
+        <div class="img-exemple">
+            <img src="./Pic/forExemple3.PNG">
+            <p>
+                Rodando um vetor/array com for, agora mudando sua estrutura para um for of e mostrando as informações do array em vez de apenas os numeros ( Imagem 3 )
+            </p>
+        </div>
+        <p>
+            Aqui diferente do for in ele não atribui o numero a variavel "n", ele atribui diretamente o valor sendo a melhor opção de rodar um array na minha opinião, quando não se sabe da existencia do forEach. ( Carlos chora ouvindo isso kk ).
+        </p>
+        <div class="line"></div>
+        <div class="img-exemple">
+            <img src="./Pic/forEachExemple1.PNG">
+            <p>
+                Rodando um vetor/array com for, agora mudando sua estrutura para um forEach e mostrando as informações do array diretamente ( Imagem 4 )
+            </p>
+        </div>
+        <p>
+            É basicamente o for of com mais classe, onde usa uma ArrowFunction ( Explico no proximo "Slide", vou falar apenas de funções em JavaScript ) não tem muito o que falar, é meu favorito e é isso.<br>
+            Aqui ele apenas atribui o tem do array a um parametro, nesse exemplo o parametro se chama "item" mas pode colocar qualquer nome. <br>
+        </p>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

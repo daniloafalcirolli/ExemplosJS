@@ -36,5 +36,5 @@
 
 // Exemplo da imagem 1 (Const)
 
-const numero1 = 1;
-numero1 = 3;
+// const numero1 = 1;
+// numero1 = 3;

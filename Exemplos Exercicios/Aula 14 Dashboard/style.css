@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Nunito:wght@300&family=Open+Sans&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Hubballi', cursive;
+}
+
+body{
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+header{
+    padding: 0px 20px;
+    color: rgb(175, 175, 175);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #404853;
+    justify-content: space-between;
+}
+
+header>div{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 450px;
+    justify-content: space-between;
+}
+
+.logo>div{
+    width: 70px;
+    height:70px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(64,72,83,1) 58%);
+}
+
+.acoes{
+    width:600px;
+    justify-content:space-around
+}
+
+.whiteBox{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(175, 175, 175);
+    border-radius: 20px;
+}
+
+main{
+    display:flex;
+}
+
+.cont1{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color:rgba(192, 192, 192, 0.468);
+}
+.sqr1{
+    background-color:white;
+    width: 100%;
+}
+.sqr1 p{
+    padding: 30px 30px 30px 30px;
+    font-size:25px;
+    font-weight: bold;
+    color: rgb(112, 112, 112);background-color: none;
+}
+
+.dates{
+    padding: 20px 20px 20px 30px;
+}
+.dates>p{
+    padding: 0px;
+}
+.dates>input, .dates>select{
+    margin: 0px 0px 0px 50px;
+    text-align: center;
+    width: 180px;
+    margin: 5px 5px 5px 20px;
+    font-size:30px;
+}
+.dates>select{width: 300px;text-align: left;}
+
+.sqr2{
+    background-color:white;
+    margin-top:30px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display:flex;
+}
+.sqr2>div{
+    display:flex;
+    margin: 1% 0px 1% 0px;
+    flex-direction: column;
+    background-color:#5984f4;
+    width: 49%;
+    color:white;
+    padding:5px;
+}
+.sqr2>div>.item1{
+    text-align:left;
+    font-size:30px;
+    margin-bottom:20px;
+}
+.sqr2>div>.item2{
+    text-align:right;
+    font-size:50px;
+}
+
+.cont2{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cont2>div{
+    
+}

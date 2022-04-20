@@ -17,3 +17,9 @@
 //     console.log("estou correndo");
 // }
 // correr();
+
+// Parametro aplicado a ArrowFunction atribuindo-a a uma variavel ( Imagem 4 )
+// var saudação = (nome, sobrenome) => {
+//     console.log("Seja bem vindo " + nome + " " + sobrenome);
+// }
+// saudação("José", "Silva");

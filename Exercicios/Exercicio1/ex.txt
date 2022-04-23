@@ -1,0 +1,3 @@
+1 - Atribua esse array a uma variavel -> ["Zézinho", "José", "João", "Maria"] <- e crie uma função que mostre todos os nomes no console ( para ler pode usar o metodo que desejar, for, foreach ou etc ).
+
+2 - Atribua esse array a uma variavel -> ["Zézinho", "José", "João", "Maria"] <- e crie uma função que retorne apenas um valor do item selecionado (Utilizar parametros dentro da função), utilizando o "return" dentro da função.
